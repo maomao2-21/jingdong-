@@ -1,0 +1,212 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 648px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* css3 盒子模型 */
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+a {
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+.app {
+    height: 45px;
+    background-color: #333333;
+}
+
+.app ul li:first-child {
+    width: 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+.app ul li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+}
+
+.app ul li:first-child a img {
+    width: 10px;
+}
+
+.app ul li:nth-child(2) {
+    width: 10%;
+}
+
+.app ul li:nth-child(2) a img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.app ul li:nth-child(3) {
+    width: 57%;
+}
+
+.app ul li:nth-child(4) {
+    width: 23%;
+    background-color: #f63515;
+}
+
+.app ul li:nth-child(4) a {
+    color: #fff;
+}
+
+.twoline {
+    position: fixed;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 640px;
+    height: 44px;
+    width: 100%;
+}
+
+.twoline .search {
+    position: absolute;
+    left: 15%;
+    top: 8px;
+    display: block;
+    background-color: #fff;
+    height: 30px;
+    width: 75%;
+    border: 0;
+    border-radius: 7px;
+}
+
+.twoline::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 45px;
+    background-image: url(../images/s-btn.png);
+    background-size: 20px 18px;
+    width: 20px;
+    height: 18px;
+}
+
+.twoline .jd {
+    position: absolute;
+    top: 16px;
+    left: 105px;
+    height: 15px;
+    width: 30px;
+    background: url(../images/jd.png) no-repeat;
+    background-size: 20px;
+    border-right: black solid 1px;
+}
+
+.twoline .jd .search-pic {
+    position: absolute;
+    left: 33px;
+    width: 18px;
+    height: 16px;
+    background: url(../images/jd-sprites.png) no-repeat -81px 0;
+    background-size: 200px auto;
+}
+
+.twoline .dengru {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 44px;
+    color: #fff;
+    line-height: 44px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.sanheyi {
+    margin-top: -5px;
+    height: 170px;
+}
+
+.sanheyi a {
+    width: 33.3%;
+    display: block;
+    float: left;
+}
+
+.sanheyi a img {
+    width: 100%;
+}
+
+nav {
+    height: 160px;
+    clear: both;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+}
+
+nav ul li {
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul li a img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+section {
+    height: 206px;
+    margin-top: 10px;
+}
+
+section .w50 {
+    float: left;
+    width: 50%;
+    border-right: #666 solid 1px;
+}
+
+section img {
+    width: 100%;
+}
+
+.w25-1,
+.w25-2 {
+    float: left;
+    width: 25%;
+    border-right: #666 solid 1px;
+}
